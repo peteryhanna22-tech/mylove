@@ -7,7 +7,7 @@ const gif = document.getElementById("gif");
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "Bhebik ktir! 🎉";
     // Change the GIF to a celebration one
-    gif.src = "https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif"; 
+    gif.src = "Marita.jpeg"; 
     
     // Hide the buttons
     yesBtn.style.display = "none";
@@ -30,4 +30,5 @@ noBtn.addEventListener("mouseover", () => {
     noBtn.style.position = "fixed"; // Change to fixed to allow free movement
     noBtn.style.left = randomX + "px";
     noBtn.style.top = randomY + "px";
+
 });
